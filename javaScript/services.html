@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVICES</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="bulma.css">
+</head>
+<body>
+  
+  <style>
+    .menu-icon span {
+      display: block;
+      width: 25px;
+      height: 3px;
+      background-color: #6a5acd;
+      margin-bottom: 6px;
+      
+    }
+    
+    #menu-toggle {
+      display: none;
+    }
+    
+    #menu-toggle:checked ~ .menu {
+      display: block;
+    }
+    
+    .menu {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 250px;
+      height: 1000px;
+      background-color: rgba(255,255,255,0.8);
+      text-align: center;
+      padding-top: 100px;
+      z-index: 998;
+      list-style: none;
+      margin-top:37px;
+    
+    }
+    .menu li{
+      margin-left: 0px;
+      margin-bottom: 50px;
+      font-size: 20px;
+      padding: 15px;
+  
+    }
+  
+   
+    .menu-icon {
+     
+    display: block;
+    position: fixed;
+    top: 15px;
+    left: 10px;
+    cursor: pointer;
+    z-index: 800;
+  }
+  .service-img {
+  width: 100%;
+  height: 100%;
+  border-radius:25px;
+  box-shadow: 2px grey;
+  object-fit: cover;
+}
+h2 {
+    font-size:40px;
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+    
+  </style>
+
+  
+    <div class="columns">
+      <div class="column is-half">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html" class="nav-link scrollto active"><i class="fas fa-home"></i><span>Home</span></a></li>
+            <li><a href="about.html" class="nav-link scrollto"><i class="fas fa-user"></i><span>About</span></a></li>
+            <li><a href="resume.html" class="nav-link scrollto"><i class="fas fa-file-alt"></i><span>Resume</span></a></li>
+            <li><a href="services.html" class="nav-link scrollto"><i class="fas fa-server"></i><span>Services</span></a></li>
+            <li><a href="contact.html" class="nav-link scrollto"><i class="fas fa-envelope"></i><span>Contact</span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+   <section id="services" class="services">
+    <div class="container" data-aos="fade-up">
+  
+      <div class="section-title">
+        <h2>Services</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div>
+  
+      <div class="columns">
+        <div class="column">
+          <img class="service-img" src="images/garvit-3IyjBegTXLA-unsplash.jpg" alt="Photography" title="Photography">
+        </div>
+        <div class="column">
+          <img class="service-img" src="images/georgie-cobbs-muOHbrFGEQY-unsplash.jpg" alt="Graphics Designing" title="Graphics Designing">
+        </div>
+        <div class="column">
+          <img class="service-img" src="images/rami-al-zayat-w33-zg-dNL4-unsplash.jpg" alt="Mobile App Development" title="Mobile App Development">
+        </div>
+        <div class="column">
+          <img class="service-img" src="images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt="Web Development" title="Web Development">
+        </div>
+      </div>
+  
+    </div>
+  </section>
+     
+        <footer id="footer" class="footer has-text-centered">
+          <div class="container">
+            <h3 class="title">Lidet Tadesse</h3>
+            <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fab fa-skype"></i></a>
+              <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="container">
+            <div class="columns is-centered">
+              <div class="column is-half">
+                <div class="content">
+                  <p>&copy; <strong><span>MyResume</span></strong>. All Rights Reserved</p>
+                </div>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>Designed by <a href="#">getme</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <script src="javaS.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+         <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+</body>
+</html>
